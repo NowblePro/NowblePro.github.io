@@ -1,2 +1,6 @@
 User-agent: *
-Disallow: https://nowblepro.github.io/
+Disallow: 
+Disallow: /category/
+Disallow: /single-product/
+Disallow: /checkout/
+Sitemap: https://nowblepro.github.io/
