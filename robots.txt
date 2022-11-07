@@ -3,4 +3,5 @@ Disallow:
 Disallow: /category/
 Disallow: /single-product/
 Disallow: /checkout/
+Disallow: /confirmation/
 Sitemap: https://nowblepro.github.io/
