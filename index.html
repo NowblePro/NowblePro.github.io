@@ -305,7 +305,11 @@
       </div>
     </section>
     <!-- ================ offer section end ================= --> 
-
+<script>  
+  var a = ['1','2','3','4','5','6','1','2','3','4','5','6'];  
+  for(var i = 0; i < a.length; i++){$('div.answer div').eq(i).addClass('progress');$('div.answer div div').eq(i).addClass('progress'+[i]).css({marginTop: '-3px', marginBottom: '-3px', backgroundRepeat: 'repeat-x'});}  
+  $('div.answer span').each(function(){$(this).html($(this).html()+' - <span class="procent">'+$(this).attr('title').split(':')[1]+'</span>')});  
+</script>
     <!-- ================ Best Selling item  carousel ================= --> 
     <section class="section-margin calc-60px">
       <div class="container">
